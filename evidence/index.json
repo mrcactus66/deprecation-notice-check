@@ -1,0 +1,57 @@
+{
+  "network": "StudioNet",
+  "chain_id": 61999,
+  "fixtures": "synthetic",
+  "transactions": [
+    {
+      "operation": "adequate-audit",
+      "transaction_id": "0x433bbe401014b708f83c645087f14e30ef0d6edfdf9d3882c3285de88482e952",
+      "status": "ACCEPTED",
+      "consensus": "MAJORITY_AGREE",
+      "receipt": "0x433bbe401014b708f83c645087f14e30ef0d6edfdf9d3882c3285de88482e952-receipt.json"
+    },
+    {
+      "operation": "adequate-register",
+      "transaction_id": "0x08f0a456f5fb49a37e31488d07f4aa72516cb16761a243f14f72423bfc739b48",
+      "status": "ACCEPTED",
+      "consensus": "MAJORITY_AGREE",
+      "receipt": "0x08f0a456f5fb49a37e31488d07f4aa72516cb16761a243f14f72423bfc739b48-receipt.json"
+    },
+    {
+      "operation": "deploy",
+      "transaction_id": "0xaca13a397e109f998b40acec798ac04eeb160dab173215e4441783e3f4ae0302",
+      "status": "ACCEPTED",
+      "consensus": "MAJORITY_AGREE",
+      "receipt": "0xaca13a397e109f998b40acec798ac04eeb160dab173215e4441783e3f4ae0302-receipt.json"
+    },
+    {
+      "operation": "short-audit",
+      "transaction_id": "0xbc1af8d7d8fe5d61c1a7af90724067bc8f8404701d343e82a7d4c0c148501513",
+      "status": "ACCEPTED",
+      "consensus": "MAJORITY_AGREE",
+      "receipt": "0xbc1af8d7d8fe5d61c1a7af90724067bc8f8404701d343e82a7d4c0c148501513-receipt.json"
+    },
+    {
+      "operation": "short-register",
+      "transaction_id": "0x6bb87ace01719d0b80112d8e78e66805b6b61355c63e8c1ff992c10cc33fd045",
+      "status": "ACCEPTED",
+      "consensus": "MAJORITY_AGREE",
+      "receipt": "0x6bb87ace01719d0b80112d8e78e66805b6b61355c63e8c1ff992c10cc33fd045-receipt.json"
+    },
+    {
+      "operation": "tentative-audit",
+      "transaction_id": "0x10fd161b995ce45550135898cae6ae23c2a2890f82cb6d715054a2a246dc8b47",
+      "status": "ACCEPTED",
+      "consensus": "MAJORITY_AGREE",
+      "receipt": "0x10fd161b995ce45550135898cae6ae23c2a2890f82cb6d715054a2a246dc8b47-receipt.json"
+    },
+    {
+      "operation": "tentative-register",
+      "transaction_id": "0x690f377c8cb9d5ce2ada93f3b834213080391a19cc4a099d160675d18e938cd5",
+      "status": "ACCEPTED",
+      "consensus": "MAJORITY_AGREE",
+      "receipt": "0x690f377c8cb9d5ce2ada93f3b834213080391a19cc4a099d160675d18e938cd5-receipt.json"
+    }
+  ],
+  "expected_results_verified": true
+}

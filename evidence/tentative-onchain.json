@@ -1,0 +1,18 @@
+{
+  "case_id": "tentative",
+  "notice_days": -1,
+  "policy_sha256": "8dc1e4fbd13666838deb3bad32ddbad7f9190de722aa78941cf99578ae9ecf18",
+  "sources": [
+    {
+      "announced_on": "",
+      "kind": "UNCLEAR",
+      "migration_available": false,
+      "migration_quote": "",
+      "notice_quote": "The team is considering removing Parcel API v1 sometime next quarter.\nA replacement and a firm removal date have not been announced.",
+      "removal_on": "",
+      "sha256": "e3d30d25d9c2714c9bfcbf351fdb5a54a378dba52cf1d923c344d3da55aa637d",
+      "url": "https://raw.githubusercontent.com/mrcactus66/deprecation-notice-check/473cc9ab7057ec4de63841eaebe72b8ef4fe581c/examples/tentative-notice.txt"
+    }
+  ],
+  "status": "INCOMPLETE"
+}

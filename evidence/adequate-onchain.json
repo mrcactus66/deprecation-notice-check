@@ -1,0 +1,18 @@
+{
+  "case_id": "adequate",
+  "notice_days": 92,
+  "policy_sha256": "800688391ae26fb3b2aaadafdc9b3c08fd5be5241620b1d6bc0d687720df50f6",
+  "sources": [
+    {
+      "announced_on": "2026-07-01",
+      "kind": "EXPLICIT",
+      "migration_available": true,
+      "migration_quote": "Integrators should migrate to Parcel API v2 and use\nPOST /v2/parcels in place of POST /v1/parcels.",
+      "notice_quote": "Parcel API v1 was announced for deprecation on 2026-07-01. Parcel API v1 will\nbe removed on 2026-10-01.",
+      "removal_on": "2026-10-01",
+      "sha256": "b71b7cf77ac12970129c95c47396720c7a2881cf79224ff368cde7c48288f3a5",
+      "url": "https://raw.githubusercontent.com/mrcactus66/deprecation-notice-check/473cc9ab7057ec4de63841eaebe72b8ef4fe581c/examples/adequate-notice.txt"
+    }
+  ],
+  "status": "MEETS_DECLARED_POLICY"
+}

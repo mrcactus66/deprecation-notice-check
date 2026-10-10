@@ -1,0 +1,12 @@
+{
+  "contract": "0x08B32a45A610Ad208824448f91FD2a3e0aE1F8f2",
+  "method": "register",
+  "args": [
+    "short",
+    "Parcel API v1",
+    "2026-10-01",
+    90,
+    true,
+    "[{\"url\": \"https://raw.githubusercontent.com/mrcactus66/deprecation-notice-check/473cc9ab7057ec4de63841eaebe72b8ef4fe581c/examples/short-notice.txt\", \"sha256\": \"be7ff0b0d446f28d8c0bfb7fe536a4d9d7b47f71e43a3a006a74ecdcf8ced3c8\"}]"
+  ]
+}

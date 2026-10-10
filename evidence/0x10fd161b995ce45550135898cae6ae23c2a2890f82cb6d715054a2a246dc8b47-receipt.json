@@ -1,0 +1,142 @@
+{
+  "hash": "0x10fd161b995ce45550135898cae6ae23c2a2890f82cb6d715054a2a246dc8b47",
+  "from_address": "0xf0363416FB4E7E2E8e1e1414b65bdb8FB40DB586",
+  "to_address": "0x08B32a45A610Ad208824448f91FD2a3e0aE1F8f2",
+  "value": 0,
+  "type": 2,
+  "status_name": "ACCEPTED",
+  "result_name": "MAJORITY_AGREE",
+  "leader_only": false,
+  "rotation_count": 1,
+  "num_of_rounds": "2",
+  "last_round": {
+    "round": "1",
+    "leader_index": "0",
+    "votes_committed": "5",
+    "votes_revealed": "5",
+    "appeal_bond": "0",
+    "rotations_left": "2",
+    "result": 6,
+    "round_validators": [
+      "0x14402D49f317CE1a2F35BAE01b1804A2A9703dCb",
+      "0xec2Fb79cd12255Eb34886CEd7332f27B98DEe658",
+      "0xacc2459F341D7a887bcA8FAA62F1EC9378d4Bc67",
+      "0x76c25AFC12c75485703cCFfd0083AA6201455B25",
+      "0x90402341F0B0e97b23023c0a87de957FB7148E0F"
+    ],
+    "validator_votes_hash": [
+      "0x9c6ad7ab03334e0c640cdbf511b01044b00d68b83c8c0ac3f0fe100bb2c05ec5",
+      "0xa40a623bbbde389ff2cd58bfd2517d2488ca807a3abfb28aa226a356b249dbcb",
+      "0x64a0592b83ca6ef19e73765ad7a1edc0de90035b9ee97a5f1a5d4d67002723d0",
+      "0xa2736926af71719be11f3523623cd48f3b53ed0af960f8091d6047f6d4becbb6",
+      "0x11b1a674f8ac236e9707da88453832b517d9106a4d8d7cac81481905bdc89a92"
+    ],
+    "validator_votes": [
+      1,
+      2,
+      1,
+      1,
+      5
+    ],
+    "validator_votes_name": [
+      "AGREE",
+      "DISAGREE",
+      "AGREE",
+      "AGREE",
+      "IDLE"
+    ]
+  },
+  "created_at": "2026-10-10T02:13:30.258821+00:00",
+  "explorer": "https://explorer-studio.genlayer.com/tx/0x10fd161b995ce45550135898cae6ae23c2a2890f82cb6d715054a2a246dc8b47",
+  "executions": [
+    {
+      "mode": "leader",
+      "vote": null,
+      "execution_result": "SUCCESS",
+      "genvm_result": {
+        "stderr": "",
+        "stdout": "",
+        "raw_error": null,
+        "error_code": null,
+        "error_description": null
+      },
+      "nondet_disagree": null,
+      "contract_state_hash": "98da9a073332ae9969b35320c1f7126f642e55fbc9c92314f88f4585adb7f851"
+    },
+    {
+      "mode": "validator",
+      "vote": "agree",
+      "execution_result": "SUCCESS",
+      "genvm_result": {
+        "stderr": "",
+        "stdout": "",
+        "raw_error": null,
+        "error_code": null,
+        "error_description": null
+      },
+      "nondet_disagree": null,
+      "contract_state_hash": "98da9a073332ae9969b35320c1f7126f642e55fbc9c92314f88f4585adb7f851"
+    },
+    {
+      "mode": "validator",
+      "vote": "disagree",
+      "execution_result": "SUCCESS",
+      "genvm_result": {
+        "stderr": "",
+        "stdout": "",
+        "raw_error": null,
+        "error_code": null,
+        "error_description": null
+      },
+      "nondet_disagree": 0,
+      "contract_state_hash": "98da9a073332ae9969b35320c1f7126f642e55fbc9c92314f88f4585adb7f851"
+    },
+    {
+      "mode": "validator",
+      "vote": "agree",
+      "execution_result": "SUCCESS",
+      "genvm_result": {
+        "stderr": "",
+        "stdout": "",
+        "raw_error": null,
+        "error_code": null,
+        "error_description": null
+      },
+      "nondet_disagree": null,
+      "contract_state_hash": "98da9a073332ae9969b35320c1f7126f642e55fbc9c92314f88f4585adb7f851"
+    },
+    {
+      "mode": "validator",
+      "vote": "agree",
+      "execution_result": "SUCCESS",
+      "genvm_result": {
+        "stderr": "",
+        "stdout": "",
+        "raw_error": null,
+        "error_code": null,
+        "error_description": null
+      },
+      "nondet_disagree": null,
+      "contract_state_hash": "98da9a073332ae9969b35320c1f7126f642e55fbc9c92314f88f4585adb7f851"
+    },
+    {
+      "mode": "validator",
+      "vote": "idle",
+      "execution_result": "ERROR",
+      "genvm_result": {
+        "stderr": "Validator execution cancelled after quorum",
+        "stdout": "",
+        "raw_error": {
+          "fatal": false,
+          "causes": [
+            "VALIDATOR_QUORUM_REACHED"
+          ]
+        },
+        "error_code": "CONSENSUS_VALIDATOR_QUORUM_REACHED"
+      },
+      "nondet_disagree": null,
+      "contract_state_hash": null
+    }
+  ],
+  "calldata": "{\"args\":[\"tentative\"],\"method\":\"audit\"}"
+}

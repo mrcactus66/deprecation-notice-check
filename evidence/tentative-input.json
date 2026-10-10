@@ -1,0 +1,12 @@
+{
+  "contract": "0x08B32a45A610Ad208824448f91FD2a3e0aE1F8f2",
+  "method": "register",
+  "args": [
+    "tentative",
+    "Parcel API v1",
+    "2026-10-01",
+    90,
+    true,
+    "[{\"url\": \"https://raw.githubusercontent.com/mrcactus66/deprecation-notice-check/473cc9ab7057ec4de63841eaebe72b8ef4fe581c/examples/tentative-notice.txt\", \"sha256\": \"e3d30d25d9c2714c9bfcbf351fdb5a54a378dba52cf1d923c344d3da55aa637d\"}]"
+  ]
+}

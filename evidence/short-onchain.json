@@ -1,0 +1,18 @@
+{
+  "case_id": "short",
+  "notice_days": 11,
+  "policy_sha256": "41524384edeb3574fb5dd3026881ce6afbf0a27a83791ff069a181ccdc402f74",
+  "sources": [
+    {
+      "announced_on": "2026-09-20",
+      "kind": "EXPLICIT",
+      "migration_available": true,
+      "migration_quote": "Migrate to Parcel API v2 and POST /v2/parcels.",
+      "notice_quote": "Parcel API v1 was announced for deprecation on 2026-09-20. Parcel API v1 will\nbe removed on 2026-10-01.",
+      "removal_on": "2026-10-01",
+      "sha256": "be7ff0b0d446f28d8c0bfb7fe536a4d9d7b47f71e43a3a006a74ecdcf8ced3c8",
+      "url": "https://raw.githubusercontent.com/mrcactus66/deprecation-notice-check/473cc9ab7057ec4de63841eaebe72b8ef4fe581c/examples/short-notice.txt"
+    }
+  ],
+  "status": "SHORT_NOTICE"
+}

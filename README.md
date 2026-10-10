@@ -77,3 +77,38 @@ The Parcel API documents under `examples/` are fictional test fixtures. They
 cover adequate notice, short notice, and an announcement with no firm dates.
 No user data, real service audit, token transfer, or financial decision is
 involved in this demonstration.
+
+## Studio run
+
+Contract: [0x08B32a45A610Ad208824448f91FD2a3e0aE1F8f2](https://explorer-studio.genlayer.com/address/0x08B32a45A610Ad208824448f91FD2a3e0aE1F8f2).
+Deployed source matches `contracts/notice_check.py` at commit
+`473cc9ab7057ec4de63841eaebe72b8ef4fe581c`.
+
+All seven transactions (deployment, three registrations, three audits) reached
+ACCEPTED with MAJORITY_AGREE and successful execution. Onchain reads returned:
+
+| Case | Interval | Stored result |
+| --- | --- | --- |
+| adequate | 92 days | MEETS_DECLARED_POLICY |
+| short | 11 days | SHORT_NOTICE |
+| tentative | No firm dates | INCOMPLETE |
+
+The tentative audit required one leader rotation and its final round included
+one disagreeing vote. The evidence records those votes; these examples do not
+claim universal model agreement. Studio can cancel remaining validators once
+quorum is reached, so IDLE votes and quorum-cancellation errors are retained.
+
+[`evidence/index.json`](evidence/index.json) lists transaction IDs and receipt
+files. Published receipts contain status, votes, execution results, calldata,
+and the deployed source hash; RPC signatures, repeated source encodings,
+model routing configuration, and raw storage blobs are omitted. Full receipts
+stay locally under ignored `.local/raw-receipts/`. The public explorer links
+allow independent inspection.
+
+`scripts/studio_demo.py` runs the same workflow on gasless StudioNet using a
+fresh disposable account. Its key stays in ignored `.local/studio.key`.
+After `deploy`, obtain the resulting contract address from `inspect <tx_id>`
+and write it to `.local/contract.address`. For each fixture, run `register`,
+wait for that transaction to be accepted, then run `audit`, wait, and `read`.
+`scripts/summarize_evidence.py` checks source hashes, consensus receipts, and
+the three expected results before producing the readable evidence files.
