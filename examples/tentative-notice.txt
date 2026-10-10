@@ -1,0 +1,5 @@
+Fixture: this is a fictional planning note, not a claim about a live service.
+
+The team is considering removing Parcel API v1 sometime next quarter.
+A replacement and a firm removal date have not been announced. This note
+was updated on 2026-07-01; that is not a deprecation announcement date.
